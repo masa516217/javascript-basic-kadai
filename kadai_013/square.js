@@ -1,10 +1,9 @@
 const onSquare = (num) => {
-  console.log(num * num);
+  return num * num;
 }
-
-onSquare(10);
+console.log(onSquare(5));
 
 function square (s) {
-  console.log(s * s);
+  return s * s;
 }
-square(9);
+console.log(square(12));
